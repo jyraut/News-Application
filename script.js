@@ -9,6 +9,8 @@ function reload() {
 
 async function fetchNews(query) {
     const res = await fetch(`${url}${query}&apiKey=${API_KEY}`);
+    // incase api doesn't work we have dummy data in news.json
+    // const res = await fetch("news.json"); 
     const data = await res.json();
     bindData(data.articles);
 }
