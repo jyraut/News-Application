@@ -18,12 +18,6 @@ A sleek and fast news application that delivers news articles from around the wo
 
 ---
 
-## 📸 Screenshots
-
-_Add screenshots here if available._
-
----
-
 ## API Fallback (Optional)
 - If you don’t want to use the live API during development or your API key is not working, you can use a local JSON file (news.json) that   contains sample news data.
 
